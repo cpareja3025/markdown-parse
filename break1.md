@@ -1,6 +1,60 @@
+# Title
 
+<!-- 
+    This file tests a case in which
+    there are are set of square brackets
+    and parentheses in a markdown file
+    but the parentheses do not have a link
+    within them. 
 
-[first link!](https://ucsd.edu)
-[second link!](https://students.ucsd.edu/student-life/events/fun-101.html?_ga=2.16833977.1435516952.1642391883-1457442789.1626139734) this is a link to academics on UCSD
+    This is fixed by checking that the 
+    parentheses come immediately after 
+    the square brackets.
+ -->
 
-[third link!](https://github.com/cpareja3025/markdown-parse) this is more text
+Here are some square brackets: []
+<br>
+Hello there, my name is Max (in CSE 15L).
+
+This is a real [link](www.nothing.com), the
+previous sentence should not have had one.
+# Title
+
+<!-- 
+    This file tests a case in which
+    there are are set of square brackets
+    and parentheses in a markdown file
+    but the parentheses do not have a link
+    within them. 
+
+    This is fixed by checking that the 
+    parentheses come immediately after 
+    the square brackets.
+ -->
+
+Here are some square brackets: []
+<br>
+Hello there, my name is Max (in CSE 15L).
+
+This is a real [link](www.nothing.com), the
+previous sentence should not have had one.
+# Title
+
+<!-- 
+    This file tests a case in which
+    there are are set of square brackets
+    and parentheses in a markdown file
+    but the parentheses do not have a link
+    within them. 
+
+    This is fixed by checking that the 
+    parentheses come immediately after 
+    the square brackets.
+ -->
+
+Here are some square brackets: []
+<br>
+Hello there, my name is Max (in CSE 15L).
+
+This is a real [link](www.nothing.com), the
+previous sentence should not have had one.
