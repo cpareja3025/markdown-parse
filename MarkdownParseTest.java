@@ -1,9 +1,6 @@
 import static org.junit.Assert.*;
-
 import java.io.IOException;
-
 import org.junit.*;
-
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
